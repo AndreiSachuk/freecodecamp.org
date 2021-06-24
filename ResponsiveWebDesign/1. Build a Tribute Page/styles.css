@@ -1,0 +1,31 @@
+#title {
+    text-align: center;
+}
+
+#tribute-info {
+    text-align: center;
+}
+
+#img-div {
+    max-width: fill-available;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+article {
+    text-align: left;
+    max-width: 600px;
+    margin: auto;
+}
+
+h2{
+    text-align: center;  
+}
+
+
+footer {
+    text-align: center;
+    text-decoration: solid;
+}
