@@ -1,0 +1,92 @@
+html, body {
+    min-width: 150px;
+    color: #ffffff;
+    background-color: #9182aa;
+}
+
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: #000;
+}
+
+header {
+    color: wheat;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bolder;
+}
+
+#main-doc header {
+    text-align: left;
+    margin: 0px;
+}
+
+#navbar ul {
+    height: 100%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#navbar li {
+    color: black;
+    border-top: 1px solid;
+    list-style: none;
+    width: 100%;
+}
+
+#navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: #68ff10;
+    text-decoration: none;
+    cursor:grab;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+section article {
+    color: #051f24;
+    margin: 15px;
+    font-size: 0.96em;
+}
+
+code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #c9b1b1;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 400px) {
+    #main-doc {
+        margin-left: -10px;
+    }
+    code {
+        margin-left: -20px;
+        width: 100%;
+        padding: 15px;
+        padding-left: 10px;
+        padding-right: 45px;
+        min-width: 233px;
+    }
+}

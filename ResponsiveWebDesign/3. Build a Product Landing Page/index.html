@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Angular!</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <header id="header">
+            <img id="header-img"
+                src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-google-icon-logo-png-transparent-svg-vector-bie-supply-14.png"
+                alt="Company Logo">
+            <nav id="nav-bar" class="sticky">
+                <a href="#video" id="angular-link" class="nav-link">Angular</a>
+                <a href="#email" id="email-link" class="nav-link">E-Mail</a>
+                <a href="#firstName" id="top-link" class="nav-link">First Name</a>
+            </nav>
+        </header>
+        <div class="video-player">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/YN8zNnV0sK8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <form id="form" class="" action="https://www.freecodecamp.com/email-submit">
+            <label for="firstName">
+                First Name:
+                <input type="text" id="firstName" required>
+            </label>
+            <br>
+            <label for="email">
+                E-Mail:
+                <input id="email" type="email" name="email" placeholder="your_address@server.com" required>
+            </label>
+            <br>
+            <input id="submit" type="submit" name="submit" value="submit">
+        </form>
+</body>
+
+</html>
